@@ -19,11 +19,11 @@ suite('canLoad', () => {
 
 suite('load', () => {
   const createPubspec = (overrides = {}) => {
-    const defaultPackageJson = {
+    const defaultPubspec = {
       name: 'test',
       version: '1.0.0',
     };
-    return YAML.stringify({ ...defaultPackageJson, ...overrides });
+    return YAML.stringify({ ...defaultPubspec, ...overrides });
   };
 
   test('should return dependencies and dev_dependencies', async () => {
