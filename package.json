@@ -1,0 +1,64 @@
+{
+  "name": "@dependency-owners/pubspec-loader",
+  "version": "0.0.0-development",
+  "description": "dependency-owners loader for pubspec.yaml files",
+  "author": "Kirk Eaton <contact@kirkeaton.ca>",
+  "bugs": {
+    "url": "https://github.com/dependency-owners/pubspec-loader/issues"
+  },
+  "dependencies": {
+    "yaml": "2.8.1"
+  },
+  "devDependencies": {
+    "@kirkeaton/prettier-config": "1.0.5",
+    "@kirkeaton/semantic-release-config": "1.0.5",
+    "@kirkeaton/tsconfig": "2.1.0",
+    "@types/node": "24.3.0",
+    "dependency-owners": "2.1.0",
+    "fs-fixture": "2.8.1",
+    "prettier": "3.6.2",
+    "semantic-release": "24.2.7",
+    "typescript": "5.9.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "funding": "https://kirkeaton.ca/sponsor",
+  "homepage": "https://github.com/dependency-owners/pubspec-loader#readme",
+  "keywords": [
+    "dependency",
+    "owners",
+    "pubspec",
+    "yaml",
+    "loader"
+  ],
+  "license": "BSD-3-Clause",
+  "packageManager": "pnpm@10.14.0",
+  "peerDependencies": {
+    "dependency-owners": ">=1.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dependency-owners/pubspec-loader.git"
+  },
+  "scripts": {
+    "build": "pnpm clean && tsc",
+    "clean": "rm -rf dist",
+    "format": "prettier \"**/*.{js,json,md,ts}\" --write",
+    "lint": "prettier \"**/*.{js,json,md,ts}\" --check",
+    "prepublishOnly": "pnpm build",
+    "test": "node --test",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module"
+}
