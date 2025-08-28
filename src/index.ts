@@ -18,8 +18,8 @@ export const canLoad = async function (filePath: string): Promise<boolean> {
 } satisfies DependencyLoader['canLoad'];
 
 /**
- * Loads the package.json file and returns its dependencies.
- * @param {string} filePath The path of the package.json file to load.
+ * Loads the pubspec.yaml file and returns its dependencies.
+ * @param {string} filePath The path of the pubspec.yaml file to load.
  * @returns {Promise<Dependency[]>} An array of dependencies.
  */
 export const load = async function (filePath: string): Promise<Dependency[]> {
