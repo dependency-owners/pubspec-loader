@@ -1,7 +1,7 @@
 import type { Dependency, DependencyLoader } from 'dependency-owners/loader';
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import * as YAML from 'yaml';
+import { parse } from 'yaml';
 
 const mapDependency = ([name, version]: [string, unknown]): Dependency => ({
   name,
@@ -23,7 +23,7 @@ export const canLoad = async function (filePath: string): Promise<boolean> {
  * @returns {Promise<Dependency[]>} An array of dependencies.
  */
 export const load = async function (filePath: string): Promise<Dependency[]> {
-  const pubspec = YAML.parse(await fs.readFile(filePath, 'utf-8'));
+  const pubspec = parse(await fs.readFile(filePath, 'utf-8'));
   return [
     ...Object.entries(pubspec.dependencies || {}).map(mapDependency),
     ...Object.entries(pubspec.dev_dependencies || {}).map(mapDependency),
