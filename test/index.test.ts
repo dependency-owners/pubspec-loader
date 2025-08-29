@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { suite, test } from 'node:test';
 import { createFixture } from 'fs-fixture';
-import * as YAML from 'yaml';
+import { stringify } from 'yaml';
 
 import { canLoad, load } from '../src/index.ts';
 
@@ -23,7 +23,7 @@ suite('load', () => {
       name: 'test',
       version: '1.0.0',
     };
-    return YAML.stringify({ ...defaultPubspec, ...overrides });
+    return stringify({ ...defaultPubspec, ...overrides });
   };
 
   test('should return dependencies and dev_dependencies', async () => {
@@ -47,6 +47,6 @@ suite('load', () => {
       'pubspec.yaml': createPubspec(),
     });
     const deps = await load(fixture.getPath('pubspec.yaml'));
-    assert.deepEqual(deps, []);
+    assert.deepStrictEqual(deps, []);
   });
 });
