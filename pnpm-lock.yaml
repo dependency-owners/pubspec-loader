@@ -151,8 +151,8 @@ packages:
     resolution: {integrity: sha512-mgdxrHTLOjOddRVYIYDo0fR3/v61GNN1YGkfbrjuIKg/uMgCd+Qzo3UAXJ+woLQQpos4pl5Esuw5A7AoNlzjUQ==}
     engines: {node: '>=18'}
 
-  '@semantic-release/github@11.0.4':
-    resolution: {integrity: sha512-fU/nLSjkp9DmB0h7FVO5imhhWJMvq2LjD4+3lz3ZAzpDLY9+KYwC+trJ+g7LbZeJv9y3L9fSFSg2DduUpiT6bw==}
+  '@semantic-release/github@11.0.5':
+    resolution: {integrity: sha512-wJamzHteXwBdopvkTD6BJjPz1UHLm20twlVCSMA9zpd3B5KrOQX137jfTbNJT6ZVz3pXtg0S1DroQl4wifJ4WQ==}
     engines: {node: '>=20.8.1'}
     peerDependencies:
       semantic-release: '>=24.1.0'
@@ -163,8 +163,8 @@ packages:
     peerDependencies:
       semantic-release: '>=20.1.0'
 
-  '@semantic-release/release-notes-generator@14.0.3':
-    resolution: {integrity: sha512-XxAZRPWGwO5JwJtS83bRdoIhCiYIx8Vhr+u231pQAsdFIAbm19rSVJLdnBN+Avvk7CKvNQE/nJ4y7uqKH6WTiw==}
+  '@semantic-release/release-notes-generator@14.1.0':
+    resolution: {integrity: sha512-CcyDRk7xq+ON/20YNR+1I/jP7BYKICr1uKd1HHpROSnnTdGqOTburi4jcRiTYz0cpfhxSloQO3cGhnoot7IEkA==}
     engines: {node: '>=20.8.1'}
     peerDependencies:
       semantic-release: '>=20.1.0'
@@ -206,8 +206,8 @@ packages:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
 
-  ansi-regex@6.1.0:
-    resolution: {integrity: sha512-7HSX4QQb4CspciLpVFwyRe79O3xsIZDDLER21kERQ71oaPodF8jL725AgJMFAYbooIqolJoRLuM81SpeUkpkvA==}
+  ansi-regex@6.2.0:
+    resolution: {integrity: sha512-TKY5pyBkHyADOPYlRT9Lx6F544mPl0vS5Ew7BJ45hA08Q+t3GjbueLliBWN3sMICk6+y7HdyxSzC4bWS8baBdg==}
     engines: {node: '>=12'}
 
   ansi-styles@3.2.1:
@@ -252,8 +252,8 @@ packages:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
 
-  chalk@5.5.0:
-    resolution: {integrity: sha512-1tm8DTaJhPBG3bIkVeZt1iZM9GfSX2lzOeDVZH9R9ffRHpmHvxZ/QhgQH/aDTkswQVt+YHdXAdS/In/30OjCbg==}
+  chalk@5.6.0:
+    resolution: {integrity: sha512-46QrSQFyVSEyYAgQ22hQ+zDa60YHA4fBstHmtSApj1Y5vKtG27fWowW03jCk5KcbXEWPZUIR894aARCA/G1kfQ==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
   char-regex@1.0.2:
@@ -376,8 +376,8 @@ packages:
   emojilib@2.4.0:
     resolution: {integrity: sha512-5U0rVMU5Y2n2+ykNLQqMoqklN9ICBT/KsvC1Gz6vqHbz2AXXGkG+Pm5rMWk/8Vjrr/mY9985Hi8DYzn1F09Nyw==}
 
-  env-ci@11.1.1:
-    resolution: {integrity: sha512-mT3ks8F0kwpo7SYNds6nWj0PaRh+qJxIeBVBXAKTN9hphAzZv7s0QAZQbqnB1fAv/r4pJUGE15BV9UrS31FP2w==}
+  env-ci@11.2.0:
+    resolution: {integrity: sha512-D5kWfzkmaOQDioPmiviWAVtKmpPT4/iJmMVQxWxMPJTFyTkdc5JQUfc5iXEeWxcOdsYTKSAiA/Age4NUOqKsRA==}
     engines: {node: ^18.17 || >=20.6.1}
 
   env-paths@2.2.1:
@@ -553,8 +553,8 @@ packages:
     resolution: {integrity: sha512-YVt14UZCgsX1vZQ3gKjkWVdBdHQ6eu3MPU1TBgL1H5orXe2+jWD006WCPPtOuwlQm10NuzOW5WawiF1Q9veW8g==}
     engines: {node: '>=18.20'}
 
-  import-meta-resolve@4.1.0:
-    resolution: {integrity: sha512-I6fiaX09Xivtk+THaMfAwnA3MVA5Big1WHF1Dfx9hFuvNIWpXnorlkzhcQf6ehrqQiiZECRt1poOAkPmer3ruw==}
+  import-meta-resolve@4.2.0:
+    resolution: {integrity: sha512-Iqv2fzaTQN28s/FwZAoFq0ZSs/7hMAHJVX+w8PZl3cY19Pxk6jFFalxQoIfW2826i/fDLXv8IiEZRIT0lDuWcg==}
 
   indent-string@5.0.0:
     resolution: {integrity: sha512-m6FAo/spmsW2Ab2fU35JTYwtOKa2yAwXSwgjSv1TJzh4Mh7mC3lzAOVLBprb72XsTrgkEIsl7YrFNAiDiRhIGg==}
@@ -1221,8 +1221,8 @@ packages:
     resolution: {integrity: sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==}
     engines: {node: '>=12'}
 
-  yoctocolors@2.1.1:
-    resolution: {integrity: sha512-GQHQqAopRhwU8Kt1DDM8NjibDXHC8eoh1erhGAJPEyveY9qqVeXvVikNKrDz69sHowPMorbPUrH/mx8c50eiBQ==}
+  yoctocolors@2.1.2:
+    resolution: {integrity: sha512-CzhO+pFNo8ajLM2d2IW/R93ipy99LWjtwblvC1RsoSUMZgyLbYFr221TnSNT7GjGdYui6P459mw9JH/g/zW2ug==}
     engines: {node: '>=18'}
 
 snapshots:
@@ -1347,7 +1347,7 @@ snapshots:
 
   '@semantic-release/error@4.0.0': {}
 
-  '@semantic-release/github@11.0.4(semantic-release@24.2.7(typescript@5.9.2))':
+  '@semantic-release/github@11.0.5(semantic-release@24.2.7(typescript@5.9.2))':
     dependencies:
       '@octokit/core': 7.0.3
       '@octokit/plugin-paginate-rest': 13.1.1(@octokit/core@7.0.3)
@@ -1386,7 +1386,7 @@ snapshots:
       semver: 7.7.2
       tempy: 3.1.0
 
-  '@semantic-release/release-notes-generator@14.0.3(semantic-release@24.2.7(typescript@5.9.2))':
+  '@semantic-release/release-notes-generator@14.1.0(semantic-release@24.2.7(typescript@5.9.2))':
     dependencies:
       conventional-changelog-angular: 8.0.0
       conventional-changelog-writer: 8.2.0
@@ -1429,7 +1429,7 @@ snapshots:
 
   ansi-regex@5.0.1: {}
 
-  ansi-regex@6.1.0: {}
+  ansi-regex@6.2.0: {}
 
   ansi-styles@3.2.1:
     dependencies:
@@ -1468,7 +1468,7 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  chalk@5.5.0: {}
+  chalk@5.6.0: {}
 
   char-regex@1.0.2: {}
 
@@ -1591,7 +1591,7 @@ snapshots:
 
   emojilib@2.4.0: {}
 
-  env-ci@11.1.1:
+  env-ci@11.2.0:
     dependencies:
       execa: 8.0.1
       java-properties: 1.0.2
@@ -1635,7 +1635,7 @@ snapshots:
       pretty-ms: 9.2.0
       signal-exit: 4.1.0
       strip-final-newline: 4.0.0
-      yoctocolors: 2.1.1
+      yoctocolors: 2.1.2
 
   fast-content-type-parse@3.0.0: {}
 
@@ -1781,11 +1781,11 @@ snapshots:
   import-from-esm@2.0.0:
     dependencies:
       debug: 4.4.1
-      import-meta-resolve: 4.1.0
+      import-meta-resolve: 4.2.0
     transitivePeerDependencies:
       - supports-color
 
-  import-meta-resolve@4.1.0: {}
+  import-meta-resolve@4.2.0: {}
 
   indent-string@5.0.0: {}
 
@@ -1883,8 +1883,8 @@ snapshots:
   marked-terminal@7.3.0(marked@15.0.12):
     dependencies:
       ansi-escapes: 7.0.0
-      ansi-regex: 6.1.0
-      chalk: 5.5.0
+      ansi-regex: 6.2.0
+      chalk: 5.6.0
       cli-highlight: 2.1.11
       cli-table3: 0.6.5
       marked: 15.0.12
@@ -2094,13 +2094,13 @@ snapshots:
     dependencies:
       '@semantic-release/commit-analyzer': 13.0.1(semantic-release@24.2.7(typescript@5.9.2))
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 11.0.4(semantic-release@24.2.7(typescript@5.9.2))
+      '@semantic-release/github': 11.0.5(semantic-release@24.2.7(typescript@5.9.2))
       '@semantic-release/npm': 12.0.2(semantic-release@24.2.7(typescript@5.9.2))
-      '@semantic-release/release-notes-generator': 14.0.3(semantic-release@24.2.7(typescript@5.9.2))
+      '@semantic-release/release-notes-generator': 14.1.0(semantic-release@24.2.7(typescript@5.9.2))
       aggregate-error: 5.0.0
       cosmiconfig: 9.0.0(typescript@5.9.2)
       debug: 4.4.1
-      env-ci: 11.1.1
+      env-ci: 11.2.0
       execa: 9.6.0
       figures: 6.1.0
       find-versions: 6.0.0
@@ -2330,4 +2330,4 @@ snapshots:
       y18n: 5.0.8
       yargs-parser: 21.1.1
 
-  yoctocolors@2.1.1: {}
+  yoctocolors@2.1.2: {}
