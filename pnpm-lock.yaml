@@ -22,8 +22,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0(typescript@5.9.2)
       '@types/node':
-        specifier: 24.3.3
-        version: 24.3.3
+        specifier: 24.4.0
+        version: 24.4.0
       dependency-owners:
         specifier: 3.0.0
         version: 3.0.0
@@ -184,8 +184,8 @@ packages:
   '@stricli/core@1.2.0':
     resolution: {integrity: sha512-5b+npntDY0TAB7wAw0daGlh3/R2sf0TDLyrB1By2jCNH+C+lmcSqMtJXOMLVtEGSkIOvqAgIWpLMSs1PXqzt3w==}
 
-  '@types/node@24.3.3':
-    resolution: {integrity: sha512-GKBNHjoNw3Kra1Qg5UXttsY5kiWMEfoHq2TmXb+b1rcm6N7B3wTrFYIf/oSZ1xNQ+hVVijgLkiDZh7jRRsh+Gw==}
+  '@types/node@24.4.0':
+    resolution: {integrity: sha512-gUuVEAK4/u6F9wRLznPUU4WGUacSEBDPoC2TrBkw3GAnOLHBL45QdfHOXp1kJ4ypBGLxTOB+t7NJLpKoC3gznQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1144,8 +1144,8 @@ packages:
     engines: {node: '>=0.8.0'}
     hasBin: true
 
-  undici-types@7.10.0:
-    resolution: {integrity: sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==}
+  undici-types@7.11.0:
+    resolution: {integrity: sha512-kt1ZriHTi7MU+Z/r9DOdAI3ONdaR3M3csEaRc6ewa4f4dTvX4cQCbJ4NkEn0ohE4hHtq85+PhPSTY+pO/1PwgA==}
 
   unicode-emoji-modifier-base@1.0.0:
     resolution: {integrity: sha512-yLSH4py7oFH3oG/9K+XWrz1pSi3dfUrWEnInbxMfArOfc1+33BlGPQtLsOYwvdMy11AwUBetYuaRxSPqgkq+8g==}
@@ -1410,9 +1410,9 @@ snapshots:
 
   '@stricli/core@1.2.0': {}
 
-  '@types/node@24.3.3':
+  '@types/node@24.4.0':
     dependencies:
-      undici-types: 7.10.0
+      undici-types: 7.11.0
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -2263,7 +2263,7 @@ snapshots:
   uglify-js@3.19.3:
     optional: true
 
-  undici-types@7.10.0: {}
+  undici-types@7.11.0: {}
 
   unicode-emoji-modifier-base@1.0.0: {}
 
