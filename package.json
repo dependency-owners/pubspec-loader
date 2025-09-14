@@ -13,7 +13,7 @@
     "@kirkeaton/prettier-config": "1.0.5",
     "@kirkeaton/semantic-release-config": "1.1.0",
     "@kirkeaton/tsconfig": "2.1.0",
-    "@types/node": "24.3.1",
+    "@types/node": "24.3.3",
     "dependency-owners": "3.0.0",
     "fs-fixture": "2.8.1",
     "prettier": "3.6.2",
@@ -40,7 +40,7 @@
     "loader"
   ],
   "license": "BSD-3-Clause",
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.16.1",
   "peerDependencies": {
     "dependency-owners": ">=1.2.1"
   },
