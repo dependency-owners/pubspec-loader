@@ -40,7 +40,7 @@
     "loader"
   ],
   "license": "BSD-3-Clause",
-  "packageManager": "pnpm@10.18.0",
+  "packageManager": "pnpm@10.18.1",
   "peerDependencies": {
     "dependency-owners": ">=1.2.1"
   },
