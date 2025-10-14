@@ -41,7 +41,7 @@
     "loader"
   ],
   "license": "BSD-3-Clause",
-  "packageManager": "pnpm@10.18.2",
+  "packageManager": "pnpm@10.18.3",
   "peerDependencies": {
     "dependency-owners": ">=1.2.1"
   },
