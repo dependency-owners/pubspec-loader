@@ -12,13 +12,11 @@
   "devDependencies": {
     "@dependency-owners/package-json-loader": "2.0.0",
     "@kirkeaton/prettier-config": "1.0.6",
-    "@kirkeaton/semantic-release-config": "2.0.1",
     "@kirkeaton/tsconfig": "2.1.1",
     "@types/node": "24.10.9",
     "dependency-owners": "3.0.3",
     "fs-fixture": "2.11.0",
     "prettier": "3.8.1",
-    "semantic-release": "25.0.2",
     "typescript": "5.9.3"
   },
   "engines": {
@@ -41,7 +39,6 @@
     "loader"
   ],
   "license": "BSD-3-Clause",
-  "packageManager": "pnpm@10.28.1",
   "peerDependencies": {
     "dependency-owners": ">=1.2.1"
   },
@@ -53,11 +50,11 @@
     "url": "git+https://github.com/dependency-owners/pubspec-loader.git"
   },
   "scripts": {
-    "build": "pnpm clean && tsc",
+    "build": "npm run clean && tsc",
     "clean": "rm -rf dist",
     "format": "prettier \"**/*.{js,json,md,ts}\" --write",
     "lint": "prettier \"**/*.{js,json,md,ts}\" --check",
-    "prepublishOnly": "pnpm build",
+    "prepublishOnly": "npm run build",
     "test": "node --test",
     "typecheck": "tsc --noEmit"
   },
