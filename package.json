@@ -7,7 +7,7 @@
     "url": "https://github.com/dependency-owners/pubspec-loader/issues"
   },
   "dependencies": {
-    "yaml": "2.8.3"
+    "yaml": "2.8.4"
   },
   "devDependencies": {
     "@dependency-owners/package-json-loader": "2.0.1",
