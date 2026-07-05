@@ -10,7 +10,7 @@
     "yaml": "2.9.0"
   },
   "devDependencies": {
-    "@dependency-owners/package-json-loader": "2.1.0",
+    "@dependency-owners/package-json-loader": "3.0.0",
     "@kirkeaton/prettier-config": "2.0.0",
     "@kirkeaton/tsconfig": "3.0.0",
     "@types/node": "25.9.3",
