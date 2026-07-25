@@ -14,9 +14,9 @@
     "@kirkeaton/prettier-config": "2.0.0",
     "@kirkeaton/tsconfig": "3.1.0",
     "@types/node": "25.9.5",
-    "dependency-owners": "4.0.1",
+    "dependency-owners": "4.0.2",
     "fs-fixture": "2.14.0",
-    "prettier": "3.9.5",
+    "prettier": "3.9.6",
     "typescript": "7.0.2"
   },
   "engines": {
