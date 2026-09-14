@@ -13,7 +13,7 @@
     "@dependency-owners/package-json-loader": "3.0.0",
     "@kirkeaton/prettier-config": "2.0.0",
     "@kirkeaton/tsconfig": "3.1.0",
-    "@types/node": "25.9.5",
+    "@types/node": "25.9.6",
     "dependency-owners": "4.0.2",
     "fs-fixture": "2.16.0",
     "prettier": "3.9.6",
